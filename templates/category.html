@@ -1,0 +1,15 @@
+{% extends "templates/layout.html" %}
+{% block title %}{{title}}{% endblock %}
+{% block body %}
+
+<h1>{{category}}</h1>
+
+<ul>
+{% for item in items %}
+<li>
+    <a href="{{category}}/{{item.metadata.slug}}">{{ item.metadata.title }}</a>
+</li>
+{% endfor %}
+</ul>
+
+{% endblock %}
