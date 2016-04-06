@@ -1,11 +1,10 @@
 # Zappa-CMS
 
-A tiny, Zappa-powered serverless CMS.
+A tiny, Zappa-powered serverless CMS for busy hackers.
 
-No websever, no database - A CMS for busy hackers.
+No websever, no database, just Markdown and metadata.
 
 It's not dissimilar to [Pico](http://picocms.org/) or [Pelican](http://blog.getpelican.com/), but slightly more flexible because it's based on Flask, not static files.
-
 
 ## Usage
 
