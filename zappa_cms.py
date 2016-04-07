@@ -79,7 +79,7 @@ def category(category):
         return rendered
 
     except IOError as e:
-        print e
+        print(e)
         return render_template('404.html'), 404
 
 @app.route('/<category>/<item_slug>', methods=['GET', 'POST'])
